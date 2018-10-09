@@ -40,8 +40,8 @@ console.log(verdict);
 ### Answer 2
 
 Console output will be:
-
-* The murderer is Mrs Peacock.
+(Error will be thrown here for trying to change const murderer)
+* The murderer is Professor Plum
 
 
 ## Episode 3
@@ -85,7 +85,7 @@ console.log(`Suspect three is ${suspectThree}.`);
 
 Console output will be:
 
-* The suspects are Miss Scarlet, Professor Plum, Mrs Peacock.
+* The suspects are Miss Scarlet, Professor Plum, Colonel Mustard.
 * Suspect three is Mrs Peacock.
 
 ## Episode 5
@@ -238,5 +238,5 @@ console.log(verdict);
 ### Answer 9
 
 Console output will be:
-
-* The murderer is Mrs. Peacock
+(Let murderer is scoped within the if statement, so let murderer variable stays unchanged outside that if statement)
+* The murderer is Professor Plum
